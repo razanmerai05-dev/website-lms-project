@@ -1,0 +1,81 @@
+<<<<<<< HEAD
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body{
+    font-family: Cairo;
+}
+h1,h2,h3{
+    font-family: Almarai;
+}
+body{
+    overflow-x: hidden !important;
+}
+.btn{
+    background-color: #9900FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    filter: brightness(90%);
+}
+.img-translate{
+    animation: translate-img 1s ease-in-out infinite;
+}
+@keyframes translate-img {
+    0%,
+    100% {
+      transform: translatey(-5px);
+    }
+    50% {
+      transform: translatey(5px);
+    }
+  }
+.animate-bounce{
+    animation: translate-img 1s ease-in-out infinite;
+}
+
+=======
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body{
+    font-family: Cairo;
+}
+h1,h2,h3{
+    font-family: Almarai;
+}
+body{
+    overflow-x: hidden !important;
+}
+.btn{
+    background-color: #9900FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    filter: brightness(90%);
+}
+.img-translate{
+    animation: translate-img 1s ease-in-out infinite;
+}
+@keyframes translate-img {
+    0%,
+    100% {
+      transform: translatey(-5px);
+    }
+    50% {
+      transform: translatey(5px);
+    }
+  }
+.animate-bounce{
+    animation: translate-img 1s ease-in-out infinite;
+}
+
+>>>>>>> 201cfae6de86797ecfc8559321b64246c1d324b4

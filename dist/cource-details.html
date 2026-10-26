@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS | الكورسات </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Inconsolata:wght@200..900&family=Rammetto+One&family=Tagesschrift&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+     <link rel="icon" href="assets/images/Gemini_Generated_Image_dpooe5dpooe5dpoo-removebg-preview (2).png">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body class="dark:bg-purple-950 bg-purple-100">
+    <!-- start navbar  -->
+     
+
+
+<nav class="bg-white border-gray-200 dark:bg-[#140021] drop-shadow-sm">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div class="flex items-center">
+    <a href="index.html" class="mt-1" >
+        <img src="assets/images/Gemini_Generated_Image_dpooe5dpooe5dpoo-removebg-preview (2).png" style="width: 75px;height: 65px;" alt="Flowbite Logo"/>
+    </a>
+    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-purple-950">الأمل سكوول</span>
+  </div>
+  <div class="relative flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-purple-900 dark:text-purple-200 rounded-lg cursor-pointer hover:bg-purple-100 dark:hover:bg-purple-950 dark:hover:text-purple-200">
+        <svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
+        English (US)
+      </button>
+      <!-- Dropdown -->
+      <div class="z-50 hidden my-4 text-base list-none bg-purple-200 divide-y divide-purple-100 rounded-lg shadow-sm dark:bg-purple-950" id="language-dropdown-menu">
+        <ul class="py-2 font-medium" role="none">
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-purple-700 hover:bg-purple-100 dark:text-purple-400 dark:hover:bg-purple-900 dark:hover:text-purple-50" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512"><g fill-rule="evenodd"><g stroke-width="1pt"><path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/><path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/></g><path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)"/><path fill="#fff" d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z" transform="scale(3.9385)"/></g></svg>              
+                English (US)
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-purple-700 hover:bg-purple-100 dark:text-purple-400 dark:hover:bg-purple-900 dark:hover:text-purple-50" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512"><path fill="#ffce00" d="M0 341.3h512V512H0z"/><path d="M0 0h512v170.7H0z"/><path fill="#d00" d="M0 170.7h512v170.6H0z"/></svg>
+                Deutsch
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm  text-purple-700 hover:bg-purple-100 dark:text-purple-400 dark:hover:bg-purple-900 dark:hover:text-purple-50" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></g></svg>              
+                Italiano
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-purple-700 hover:bg-purple-100 dark:text-purple-400 dark:hover:bg-purple-900 dark:hover:text-purple-50" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512"><defs><path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z"/></defs><path fill="#de2910" d="M0 0h512v512H0z"/><use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a"/><use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a"/></svg>
+                中文 (繁體)
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-1 justify-center text-sm text-purple-500 rounded-lg md:hidden hover:bg-purple-100 focus:outline-none focus:ring-2 focus:ring-purple-200 dark:text-purple-400 dark:hover:bg-purple-700 dark:focus:ring-purple-600" aria-controls="navbar-language" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+    <ul class="flex flex-col md:items-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-[#140021] dark:border-gray-700">
+      <li>
+        <a href="index.html" class="block py-2 px-3 text-purple-950 rounded-sm hover:bg-purple-100 md:hover:bg-transparent md:hover:text-purple-700 dark:text-purple-50 md:dark:hover:text-purple-500 dark:hover:bg-purple-700 dark:hover:text-purple-50 md:dark:hover:bg-transparent dark:border-purple-700" aria-current="page">الرئيسية</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-purple-50 bg-purple-700 rounded-sm md:bg-transparent md:text-[#9900FF] md:p-0 md:dark:text-[#b262f0]">الكورسات</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-purple-950 rounded-sm hover:bg-purple-100 md:hover:bg-transparent md:hover:text-purple-700 dark:text-purple-50 md:dark:hover:text-purple-500 dark:hover:bg-purple-700 dark:hover:text-purple-50 md:dark:hover:bg-transparent dark:border-purple-700">الخدمات</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-purple-950 rounded-sm hover:bg-purple-100 md:hover:bg-transparent md:hover:text-purple-700 dark:text-purple-50 md:dark:hover:text-purple-500 dark:hover:bg-purple-700 dark:hover:text-purple-50 md:dark:hover:bg-transparent dark:border-purple-700">المدونة</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-purple-950 rounded-sm hover:bg-purple-100 md:hover:bg-transparent md:hover:text-purple-700 dark:text-purple-50 md:dark:hover:text-purple-500 dark:hover:bg-purple-700 dark:hover:text-purple-50 md:dark:hover:bg-transparent dark:border-purple-700">اتصل بنا</a>
+      </li>
+      <li class="mr-3">
+      <button id="theme-toggle" type="button" class="text-purple-500 dark:text-purple-400 hover:bg-purple-100 dark:hover:bg-purple-700 rounded-lg text-sm p-2.5">
+       <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+       <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+      </button>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+    <!-- end navbar  -->
+<!-- start cource page header  -->
+ <section class="py-[50px] bg-gradient-to-b from-purple-300 to-purple-50 dark:bg-gradient-to-b dark:from-[#140021] dark:to-purple-900 ">
+    <div class="hero-info header-cource max-w-screen-xl mx-auto flex justify-between">
+        <div class="grow flex flex-col justify-center">
+            <h1 class="text-center md:text-right text-4xl font-bold text-purple-700 dark:text-purple-200 mb-5">غرافيك ديزاين</h1>
+            <p class="text-center md:text-right text-xl text-purple-900 dark:text-purple-100 mb-5">المدرب: <span>محمد علي</span></p>
+            <div class="flex gap-3 justify-center md:justify-start text-purple-700 dark:text-purple-200">
+                <div class="">
+                    <i class="fa-regular fa-square-check"></i>
+                    1/نيسان/2026
+                </div>
+                <div class="">
+                    <i class="fa-regular fa-file-lines"></i>
+                   14 درس
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                   العربي
+                </div>
+            </div>
+        </div>
+       
+    </div>
+ </section>
+<!-- end cource page header  -->
+<!-- start content header  -->
+ <section class="main-content mt-5">
+  <div class="inner-content max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row justify-between gap-5">
+    <div class="content hero-info grow m-3 md:m-0">
+      
+
+    <div class="c-tab text-sm font-medium text-center text-purple-500 border-b border-purple-200 dark:text-purplepurple-400 dark:border-purple-700">
+        <ul class="flex flex-wrap -mb-px" data-tabs-toggle="#tabcontent">
+            <li class="me-2">
+                <a href="#"  data-tabs-target="#Description" role="tab" aria-controls="Description" aria-selected="false" class="inline-block p-4 text-purple-600 dark:hover:text-purple-3000 hover:text-purple-600 dark:text-purple-100 border-b-2 border-purple-600 rounded-t-lg active dark:border-purple-500" aria-current="page">تفاصيل الكورس</a>
+            </li>
+            <li class="me-2">
+                <a href="#" data-tabs-target="#Curriculum" role="tab" aria-controls="Curriculum" aria-selected="true" class="inline-block p-4 text-purple-600 dark:hover:text-purple-3000 hover:text-purple-600 dark:text-purple-100 border-b-2 border-purple-600 rounded-t-lg active dark:border-purple-500" aria-current="page">المنهاج</a>
+            </li>
+            <li class="me-2">
+                <a href="#" data-tabs-target="#About" role="tab" aria-controls="About" aria-selected="false" class="inline-block p-4 text-purple-600 dark:hover:text-purple-3000 hover:text-purple-600 dark:text-purple-100 border-b-2 border-purple-600 rounded-t-lg active dark:border-purple-500" aria-current="page" >حول المدرب</a>
+            </li>
+        </ul>
+    </div>
+    <div id="tabcontent">
+      <div id="Description" class="mt-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 bg-purple-200 dark:bg-purple-600 rounded-md p-4">
+          <div class="">
+            <ul class="flex flex-col gap-4">
+              <li>
+                <i class="fa-solid fa-user-graduate text-purple-800 dark:text-purple-100 ml-1"></i>
+                <span class="text-purple-800 text-xl  dark:text-purple-100">أكثر من2000 شخص التحق بالكورس</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-pied-piper-pp text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">تعلم أساسيات الفوتوشوب</span>
+              </li>
+              <li>
+              <i class="fa-regular fa-credit-card text-purple-800 ml-1 dark:text-purple-100"></i>
+              <span class="text-purple-800 text-xl dark:text-purple-100">بناء نماذج عملية كاردات ومناشير</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-flutter text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">تعلم انشاء اللوغو</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-robot text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">تعلم أدوات الذكاء الصنعي بالفوتوشوب</span>
+              </li>
+            </ul>
+          </div>
+          <div class="">
+            <ul class="flex flex-col gap-4">
+              <li>
+                <i class="fa-solid fa-award text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">شهادة معتمدة بعد الانتهاء من الكورس</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-chalkboard-user text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">تدرس على يد خبراء في مجال الغرافيك</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-headset text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">دعم فني وإجابات على جميع الاستفسارات</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-briefcase text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">تدريب عملي لتجهيز الطالب لسوق العمل</span>
+              </li>
+              <li>
+                <i class="fa-brands fa-keycdn text-purple-800 ml-1 dark:text-purple-100"></i>
+                <span class="text-purple-800 text-xl dark:text-purple-100">محتوى محدث باستمرار بأحدث التقنيات </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+          <p class="text-purple-900 dark:text-purple-100 mt-5 leading-9">
+            تمنحك سلسلة من مقاطع الفيديو من ThimPress برنامجًا تعليميًا مفصلاً لإنشاء موقع ويب LMS باستخدام LearnPress – photoshope & Education grafics Plugin.
+          </p>
+        <p class="text-purple-900 dark:text-purple-100 mt-5 leading-9">
+           هذه الدورة عبارة عن برنامج تعليمي مفصل وسهل لتحصل على الإعداد الكامل والبدء باستخدام البرنامج الإضافي LearnPress LMS.  إنه مكون إضافي مجاني وبسيط لمساعدتك في إنشاء موقع ويب للدورات التدريبية عبر الإنترنت خطوة بخطوة.  يرشدك البرنامج التعليمي خلال تكوين البرنامج المساعد، وإنشاء الدورات التدريبية، والدروس، والاختبارات، وأخيرًا يرشدك حول كيفية تعزيز موقع الويب الخاص بك باستخدام إضافات Premium LearnPress المقدمة إليك بواسطة ThimPress (منشئ LearnPress).  ويوضح أيضًا كيف يمكنك تكوين عناصر إضافية مثل تخطيطات الدورة والصور المميزة ...
+        </p>
+        <img class="mt-5" src="assets/images/single-course-1.webp" alt="">
+        <p class="text-purple-900 dark:text-purple-100 mt-5 leading-9">
+            تمنحك سلسلة من مقاطع الفيديو من ThimPress برنامجًا تعليميًا مفصلاً لإنشاء موقع ويب LMS باستخدام LearnPress – photoshope & Education grafics Plugin.
+          </p>
+        <img class="mt-5" src="assets/images/single-course-2.webp" alt="">
+        <p class="text-purple-900 dark:text-purple-100 mt-5 leading-9">
+           هذه الدورة عبارة عن برنامج تعليمي مفصل وسهل لتحصل على الإعداد الكامل والبدء باستخدام البرنامج الإضافي LearnPress LMS.  إنه مكون إضافي مجاني وبسيط لمساعدتك في إنشاء موقع ويب للدورات التدريبية عبر الإنترنت خطوة بخطوة.  يرشدك البرنامج التعليمي خلال تكوين البرنامج المساعد، وإنشاء الدورات التدريبية، والدروس، والاختبارات، وأخيرًا يرشدك حول كيفية تعزيز موقع الويب الخاص بك باستخدام إضافات Premium LearnPress المقدمة إليك بواسطة ThimPress (منشئ LearnPress).  ويوضح أيضًا كيف يمكنك تكوين عناصر إضافية مثل تخطيطات الدورة والصور المميزة ...
+        </p>
+      </div>
+
+      <div id="Curriculum" class="mt-5">
+
+        <div id="accordion-open" data-accordion="open">
+        <h2 id="accordion-open-heading-1">
+          <button type="button" class="flex items-center justify-between w-full mb-1 p-5 font-medium rtl:text-right dark:bg-purple-800 bg-purple-300 text-purple-800 border border-b-0 border-purple-200 rounded-t-xl  dark:border-purple-900 dark:text-purple-200 hover:bg-purple-400 dark:hover:bg-purple-700 gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
+            <span class="text-xl font-bold">شرح كامل للغرافيك ديزاين</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-open-body-1" class="hidden mb-1" aria-labelledby="accordion-open-heading-1">
+          <div class="flex justify-between p-5 border border-b-0 bg-purple-400 border-purple-200 dark:border-purple-700 dark:bg-purple-900">
+            <div class="">
+                  <i class="fa-regular fa-file-lines text-purple-950 dark:text-purple-200 ml-2.5"></i>
+                  <a href="#" class="text-purple-950 dark:text-purple-200">مقدمة بالفوتوشوب</a>
+                </div>
+                <div class="">
+                  <span class="text-purple-950 dark:text-purple-200">35دقيقة</span>
+                  <a href="#"><i class="fa-regular fa-eye text-purple-950 dark:text-purple-200 mr-2.5"></i></a>
+                </div>
+          </div>
+        </div>
+        <h2 id="accordion-open-heading-2">
+          <button type="button" class="flex items-center justify-between w-full mb-1 p-5 font-medium rtl:text-right dark:bg-purple-800 bg-purple-300 text-purple-800 border border-b-0 border-purple-200 rounded-t-xl  dark:border-purple-900 dark:text-purple-200 hover:bg-purple-400 dark:hover:bg-purple-700 gap-3" data-accordion-target="#accordion-open-body-2" aria-expanded="false" aria-controls="accordion-open-body-0">
+            <span class="text-xl font-bold">شرح عملي للبوستات والكاردات  </span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+         <div id="accordion-open-body-2" class="hidden mb-1" aria-labelledby="accordion-open-heading-2">
+          <div class="flex justify-between p-5 border border-b-0 bg-purple-400 border-purple-200 dark:border-purple-700 dark:bg-purple-900">
+            <div class="">
+                  <i class="fa-regular fa-file-lines text-purple-950 dark:text-purple-200 ml-2.5"></i>
+                  <a href="#" class="text-purple-950 dark:text-purple-200">دروس التطبيق العملي بوستات - كاردات </a>
+                </div>
+                <div class="">
+                  <span class="text-purple-950 dark:text-purple-200">35دقيقة</span>
+                  <a href="#"><i class="fa-regular fa-eye text-purple-950 dark:text-purple-200 mr-2.5"></i></a>
+                </div>
+          </div>
+        </div>
+        <h2 id="accordion-open-heading-3">
+          <button type="button" class="flex items-center justify-between w-full mb-1 p-5 font-medium rtl:text-right dark:bg-purple-800 bg-purple-300 text-purple-800 border border-b-0 border-purple-200 rounded-t-xl  dark:border-purple-900 dark:text-purple-200 hover:bg-purple-400 dark:hover:bg-purple-700 gap-3" data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
+            <span class="text-xl font-bold">شرح تطبيق عملي لوغو</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+        </h2>
+         <div id="accordion-open-body-3" class="hidden mb-1" aria-labelledby="accordion-open-heading-3">
+          <div class="flex justify-between p-5 border border-b-0 bg-purple-400 border-purple-200 dark:border-purple-700 dark:bg-purple-900">
+            <div class="">
+                  <i class="fa-regular fa-file-lines text-purple-950 dark:text-purple-200 ml-2.5"></i>
+                  <a href="#" class="text-purple-950 dark:text-purple-200">تطبيق عملي لصناعة لوغوات</a>
+                </div>
+                <div class="">
+                  <span class="text-purple-950 dark:text-purple-200">35دقيقة</span>
+                  <a href="#"><i class="fa-regular fa-eye text-purple-950 dark:text-purple-200 mr-2.5"></i></a>
+                </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+
+      <div id="About" class="mt-5">
+        <h2 class="text-2xl font-bold text-purple-900 dark:text-purple-100">ياسين العلي</h2>
+        <div class="flex gap-4 items-center my-7">
+          <img class="w-[150px] h-[150px] rounded-full object-cover" src="assets/images/graphic.jpg" alt="">
+          <span class="text-purple-900 dark:text-purple-100"><i class="fa-solid fa-user-group text-purple-600 dark:text-purple-300"></i> 250 شخص</span>
+          <span class="text-purple-900 dark:text-purple-100"><i class="fa-solid fa-file text-purple-600 dark:text-purple-300"></i> 30 درس</span>
+        </div>
+        <p class="text-xl text-purple-900 dark:text-purple-100">مصمم غرافيك ديزاين - مصمم فوتوشوب</p>
+        <div class="social flex gap-5 mt-5">
+          <a href="#"><i class="fa-brands fa-facebook-f text-purple-600 dark:text-purple-300"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter text-purple-600 dark:text-purple-300"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram text-purple-600 dark:text-purple-300"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in text-purple-600 dark:text-purple-300"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube text-purple-600 dark:text-purple-300"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews mt-5">
+      <h2 class="text-3xl font-bold text-purple-900 dark:text-purple-100 my-5">التعليقات</h2>
+      <div class="flex items-center gap-4 my-5">
+        <span class="text-3xl font-bold text-purple-900 dark:text-purple-100">250</span>
+         <div class="stars flex gap-2 text-yellow-400">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+      </div>
+    </div>
+    <div class="progres bg-purple-200 dark:bg-purple-600 rounded-md p-4 md:w-[80%]">
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-2xl font-bold text-purple-900 dark:text-purple-100">5</span>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <div class="w-full bg-purple-300 rounded-full dark:bg-purple-400">
+          <div class="bg-purple-600 dark:bg-purple-950 text-xs font-medium text-purple-100 text-center p-0.5 leading-none rounded-full" style="width: 45%"> 45%</div>
+        </div>
+
+      </div>
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-2xl font-bold text-purple-900 dark:text-purple-100">4</span>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <div class="w-full bg-purple-300 rounded-full dark:bg-purple-400">
+          <div class="bg-purple-600 dark:bg-purple-950 text-xs font-medium text-purple-100 text-center p-0.5 leading-none rounded-full" style="width: 35%"> 35%</div>
+        </div>
+
+      </div>
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-2xl font-bold text-purple-900 dark:text-purple-100">3</span>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <div class="w-full bg-purple-300 rounded-full dark:bg-purple-400">
+          <div class="bg-purple-600 dark:bg-purple-950 text-xs font-medium text-purple-100 text-center p-0.5 leading-none rounded-full" style="width:10%"> 10%</div>
+        </div>
+
+      </div>
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-2xl font-bold text-purple-900 dark:text-purple-100">2</span>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <div class="w-full bg-purple-300 rounded-full dark:bg-purple-400">
+          <div class="bg-purple-600 dark:bg-purple-950 text-xs font-medium text-purple-100 text-center p-0.5 leading-none rounded-full" style="width: 5%"> 6%</div>
+        </div>
+
+      </div>
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-2xl font-bold text-purple-900 dark:text-purple-100">1</span>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <div class="w-full bg-purple-300 rounded-full dark:bg-purple-400">
+          <div class="bg-purple-600 dark:bg-purple-950 text-xs font-medium text-purple-100 text-center p-0.5 leading-none rounded-full" style="width: 4%"> 4%</div>
+        </div>
+
+      </div>
+    
+    </div>
+
+    </div>
+    </div>
+   <div class="cource-details hero-imge m-3 md:m-0 md:w-[25%] md:relative md:top-[-200px] shrink-0 bg-purple-200 dark:bg-[#AD46FF] rounded-[10px] h-full">
+     <div class="">
+            <img class="w-full md:h-[200px] h-[300px] object-cover rounded-t-[10px]" src="assets/images/grafic (1).jpg" alt="">
+        </div>
+   <div class="p-[20px]">
+     <p class="text-3xl font-bold text-purple-800 mb-5 dark:text-purple-200">السعر:250$</p>
+     <button class="btn w-full cursor-pointer">اشترك الآن</button>
+    <div class="flex flex-col gap-2 mt-2">
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-user-graduate text-purple-800 dark:text-purple-100"></i>
+          أكثر من 2000 طالب سجل في الكورس
+        </span>
+      </div>
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-book-open text-purple-800 dark:text-purple-100"></i>
+         يشمل 40درساً مفصلاً
+        </span>
+      </div>
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-clock text-purple-800 dark:text-purple-100"></i>
+          مدة الكوس : 30ساعة تدريبية
+        </span>
+      </div>
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-star text-purple-800 dark:text-purple-100"></i>
+          تقييم 4.8 من 5 من قبل الطلاب
+        </span>
+      </div>
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-certificate text-purple-800 dark:text-purple-100"></i>
+          شهادة معتمدة بعد الانتهاء
+        </span>
+      </div>
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-chalkboard-user text-purple-800 dark:text-purple-100"></i>
+         إشراف مدربين محترفين
+         </span>
+      </div>
+      <div class="mt-2">
+        <span class="text-purple-900 dark:text-purple-100">
+          <i class="fa-solid fa-users-gear text-purple-800 dark:text-purple-100"></i>
+        دعم فني واستفسارات مباشرة
+         </span>
+      </div>
+    </div>
+   </div>
+   </div>
+  </div>
+ 
+  <!-- start related section  -->
+    <div class="all-cources max-w-screen-xl mx-auto my-[50px]">
+  <h3 class="font-bold text-3xl dark:text-purple-100 text-[#9900FF] p-4 md:p-0 mb-3.5">الكورسات المتعلقة</h3>
+  <hr class="text-[#9900FF] dark:text-purple-100 mr-4 md:mr-0 md:w-[20%] w-[40%] mb-7">
+    <div class="swiper hero-info relative">
+    <div class="cources swiper-wrapper mt-8 p-4 md:p-0">
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">غرافيك ديزاين</div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/grafic (1).jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس فوتوشوب</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس الفوتوشوب من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">250$</span>
+             </div>
+             <span>150$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +12000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">لغة برمجية</div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/Python.jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس بايثون</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس البايثون من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">300$</span>
+             </div>
+             <span>250$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +34000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">مونتاج </div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/montage.jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس أدوبي برايمر </h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس المونتاج من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">100$</span>
+             </div>
+             <span>80$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +25000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">تسويق </div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/marketing.jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس تسويق احترافي</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس التسويق من الصفر حتى الاحتراف على كافة مواقع السوشيال ميديا </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">200$</span>
+             </div>
+             <span>180$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +12000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">اللغات </div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/eng.jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس لغة انجليزية</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس اللغة الانجليزية من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">400$</span>
+             </div>
+             <span>350$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +478000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">الذكاء الصنعي</div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/1.jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس ذكاء صنعي</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس نعلم كيفية استخدام الذكاء الصنعي من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">400$</span>
+             </div>
+             <span>350$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +80000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">الأمن السيبراني</div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/s (1).jpg" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس الأمن السيبراني</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس الأمن السيبراني من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">350$</span>
+             </div>
+             <span>200$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +12000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+       <div class="cource swiper-slide relative bg-[#C5C5D3] dark:bg-purple-900 rounded-md overflow-hidden">
+         <div class="absolute bg-purple-600  px-2 py-1 rounded-md text-white top-[5px] right-[5px]">لغة برمجية </div>
+         <div class="cource-img w-full h-[200px]">
+           <img class="w-full h-[200px] object-cover" src="assets/images/javascript.webp" alt="">
+         </div>
+         <div class="cource-info p-2 text-center">
+           <h3 class="text-xl font-bold text-purple-900 dark:text-purple-200 my-3">كورس جافا</h3>
+           <p class="text-purple-950 dark:text-purple-100">يقدم هذا الكورس الجافا من الصفر حتى الاحتراف </p>
+           <div class="price flex justify-around mt-8 text-xl text-purple-800 dark:text-purple-200">
+               <div class="">
+               <span>السعر:</span>
+               <span class="line-through">400$</span>
+             </div>
+             <span>350$</span>
+           </div>
+           <div class="flex justify-around mt-3">
+             <span class="text-xl text-purple-700 dark:text-purple-200"><i class="fa-solid fa-user-graduate text-xl text-purple-700 dark:text-purple-200"></i> +22000</span>
+             <div class="star">
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+               <i class="fa-solid fa-star text-xl text-yellow-500"></i>
+             </div>
+           </div>
+           <a href="cource-details.html" class="block text-center btn w-full my-3 cursor-pointer">عرض التفاصيل</a>
+         </div>
+       </div>
+     </div>
+     <div class="btn-controls flex justify-between w-full absolute top-[50%] z-20">
+      <div class="btn-next w-[40px] h-[40px] flex justify-center items-center rounded-full cursor-pointer bg-purple-400">
+        <i class="fa-solid fa-angle-right text-xl text-purple-100"></i>
+      </div>
+      <div class="btn-prev w-[40px] h-[40px] flex justify-center items-center rounded-full cursor-pointer bg-purple-400">
+        <i class="fa-solid fa-angle-left text-xl text-purple-100"></i>
+      </div>
+     </div>
+  </div>
+</div>
+<!-- end related section  -->
+
+</section>
+<!-- end content header  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start footer sections  -->
+ <footer class="relative bg-purple-700 border-[3px] border-t-purple-950 dark:border-t-purple-300" style="background-image: url(assets/images/footer-bg.png);background-position: center;background-size: contain;background-repeat: no-repeat;">
+  <div class="absolute z-10 w-full h-full bg-[#2900478a]"></div>
+  <div class="hero-info relative z-20 max-w-screen-xl mx-auto p-3 pt-[35px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="f1-ssection">
+      <!-- <img width="30%" height="20%" src="assets/images/Gemini_Generated_Image_dpooe5dpooe5dpoo-removebg-preview (2).png" alt=""> -->
+      <h3 class="text-2xl font-bold text-purple-300 mb-5">الأمل سكوول</h3>
+      <p class="text-purple-200 leading-10 w-[90%]">تقدّم أفضل أنظمة إدارة التعلم خدماتٍ تحسّن العملية التعليمية وتجعلها أكثر فاعليّةً وتفاعلًا، كأن توفّر مساحاتٍ للتفاعل بين طلّاب الأكاديمية، بالإضافة لأنظمة الشهادات والاختبارات والواجبات، ممّا يعطي المعلّم إمكانيّةً للتفاعل مع طلّابه ومراقبة تقدّمهم.</p>
+    </div>
+    <div class="f2-secion">
+      <h3 class="text-2xl font-bold text-purple-300 mb-5">أهم الروابط</h3>
+      <ul class="flex flex-col gap-3 text-xl text-purple-200">
+        <li><a href="" class="hover:text-purple-500">الرئيسية</a></li>
+        <li><a href="" class="hover:text-purple-500">من نحن</a></li>
+        <li><a href="" class="hover:text-purple-500"> المدونة</a></li>
+        <li><a href="" class="hover:text-purple-500">الاسئلة الشائعة </a></li>
+      </ul>
+    </div>
+    <div class="f3-secion">
+      <h3 class="text-2xl font-bold text-purple-300 mb-5">أهم الكورسات</h3>
+      <ul class="flex flex-col gap-3 text-xl text-purple-200">
+        <li><a href="" class="hover:text-purple-500">اللغات</a></li>
+        <li><a href="" class="hover:text-purple-500">لبرمجة </a></li>
+        <li><a href="" class="hover:text-purple-500"> التسويق</a></li>
+        <li><a href="" class="hover:text-purple-500">الغرافيك</a></li>
+      </ul>
+    </div>
+    <div class="f4-section">
+      <h3 class="text-2xl font-bold text-purple-300 mb-5">النشرة البريدية</h3>
+     <form action="" class="flex flex-col gap-3">
+      <input type="text" placeholder="بريدك الالكتروني" class="placeholder:text-purple-200 caret-purple-100 focus:outline-none border border-purple-400 px-3 py-1 h-10 rounded-[5px]">
+      <button class="btn">اشترك الآن</button>
+     </form>
+    </div>
+  </div>
+  <div class="hero-info relative z-20 max-w-screen-xl mx-auto p-3 flex md:flex-row justify-between flex-col gap-2 items-center border-t-2 border-purple-500 py-[25px]">
+     <p class="text-purple-200">كافة الخقوق محفوظة لدى مدرسة سكوول تك</p>
+    <p class="text-purple-200"> تصميم وبرمجة شركة الأمل سكوول  للتعلم والمعرفة</p>
+  </div>
+ </footer>
+<!-- end footer sections  -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
